@@ -1,0 +1,6 @@
+*
+!/.gitignore
+!/README.md
+!/codeStyleSettings.xml
+!/inspectionProfiles/Project_Default.xml
+!/inspectionProfiles/profiles_settings.xml

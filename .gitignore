@@ -2,5 +2,6 @@
 !/.gitignore
 !/README.md
 !/codeStyleSettings.xml
+!/encodings.xml
 !/inspectionProfiles/Project_Default.xml
 !/inspectionProfiles/profiles_settings.xml

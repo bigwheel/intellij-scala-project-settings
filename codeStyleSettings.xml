@@ -7,6 +7,11 @@
         <option name="RIGHT_MARGIN" value="100" />
         <ScalaCodeStyleSettings>
           <option name="collectImports" value="false" />
+          <option name="importLayout">
+            <array>
+              <option value="all other imports" />
+            </array>
+          </option>
           <option name="NOT_CONTINUATION_INDENT_FOR_PARAMS" value="true" />
         </ScalaCodeStyleSettings>
         <XML>

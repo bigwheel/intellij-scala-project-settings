@@ -10,7 +10,7 @@
 # 使い方
 1. ```cd $PROJECT_ROOT```
 2. (すでにプロジェクト設定が存在していれば)```mv .idea .idea.bk```
-3. ```git submodule add git@github.com:bigwheel/intellij-scala-project-settings.git .idea```
+3. ```git submodule add https://github.com/bigwheel/intellij-scala-project-settings.git .idea```
 4. ```git submodule update --init```
 5. IntelliJ IDEAのWelcomeダイアログ → Import Projectからプロジェクト設定を作成(Openから開かないよう注意)
 

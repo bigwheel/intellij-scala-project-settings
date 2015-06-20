@@ -8,15 +8,11 @@
 * OSは問わない
 
 # 使い方
-1. ```cd $PROJECT_ROOT```
-2. (すでにプロジェクト設定が存在していれば)```mv .idea .idea.bk```
-3. ```git submodule add https://github.com/bigwheel/intellij-scala-project-settings.git .idea```
-4. ```git submodule update --init```
-5. IntelliJ IDEAのWelcomeダイアログ → Import Projectからプロジェクト設定を作成(Openから開かないよう注意)
-
-# 注意点
-すでにプロジェクト設定(.idea)が存在する状態でこのリポジトリをcloneしたときに
-正しく設定が反映されるかは不定です(.idea内の設定ファイルなどに依存するため)
+1. build.sbtを記述
+2. intellijの"Import Project"を行い.ideaディレクトリと仮の設定ファイルを作成
+3. ```cd $PROJECT_ROOT```
+4. ```git submodule add https://github.com/bigwheel/intellij-scala-project-settings.git .idea```
+5. ```git submodule update --init```
 
 # ライセンスについて
 このリポジトリはCC0 1.0です。あなたが望むどのような形でも使ってもOK

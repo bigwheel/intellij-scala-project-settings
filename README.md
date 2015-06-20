@@ -9,10 +9,12 @@
 
 # 使い方
 1. build.sbtを記述
-2. intellijの"Import Project"を行い.ideaディレクトリと仮の設定ファイルを作成
-3. ```cd $PROJECT_ROOT```
-4. ```git submodule add https://github.com/bigwheel/intellij-scala-project-settings.git .idea```
-5. ```git submodule update --init```
+2. ```cd $PROJECT_ROOT```
+3. ```git submodule add https://github.com/bigwheel/intellij-scala-project-settings.git .idea```
+4. Intellijの"Import Project"を行い、仮の.ideaディレクトリと設定ファイルを作成
+5. 一度IntellijをClose
+6. ```git submodule update --init```
+7. 再度IntellijでプロジェクトをOpen
 
 # ライセンスについて
 このリポジトリはCC0 1.0です。あなたが望むどのような形でも使ってもOK

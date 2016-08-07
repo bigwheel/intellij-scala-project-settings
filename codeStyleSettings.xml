@@ -13,6 +13,9 @@
               <option value="all other imports" />
             </array>
           </option>
+          <option name="importsWithPrefix">
+            <array />
+          </option>
           <option name="NOT_CONTINUATION_INDENT_FOR_PARAMS" value="true" />
         </ScalaCodeStyleSettings>
         <XML>
